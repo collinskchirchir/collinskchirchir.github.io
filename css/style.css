@@ -18,7 +18,14 @@ section {
    padding-bottom: 30px;
 }
 
-
+/* Clients Section */
+.carousel-item{
+   height: 32rem;
+   background-color: #777;
+   color: white;
+   position: relative;
+}
+/* End of Clients Section */
 
 /* Footer Section */
 footer {
