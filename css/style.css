@@ -10,7 +10,6 @@
    /* Main styles */
 section {
    padding: 60px 0;
-   overflow: hidden;
 }
    
 .section-title {
@@ -21,6 +20,35 @@ section {
    margin:auto;
    text-align: center;
 }
+
+/* Header Section */
+.headers{
+   background: var(--bs-white);
+   padding-bottom: 40px;
+}
+.header-container{
+   display: flex;
+   justify-content: space-between;
+}
+.header-container .content{
+   width: 60%;
+   padding-left: 15px;
+   padding-right: 15px
+}
+.header-container .content .top-section{
+   //
+}
+.header-container .content .bottom-section{
+   //
+}
+.header-container .image{
+   padding-right: 30px
+}
+.header-container .image img{
+   height: 500px;
+}
+
+/* End of Header Section */
 
 /* Service Section */
 .services{
