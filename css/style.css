@@ -1,0 +1,12 @@
+   /* Loading offline fontawesome v6.2.0 core styles, Brands, Solid, Regular, Light and Duotone styles */
+@import "./fontawesome.css";
+@import "./brands.css";
+@import "./solid.css";
+@import "./regular.css"; 
+@import "./light.css"; 
+@import "./duotone.css";
+   /* Loading online bootstrap file */
+@import url("https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css");
+   /* Main styles */
+
+ 
