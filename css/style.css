@@ -17,6 +17,31 @@ section {
    text-align: center;
    padding-bottom: 30px;
 }
+.center{
+   margin:auto;
+   text-align: center;
+}
+
+/* Service Section */
+.services{
+   background: #F6F7FA;
+   padding-bottom: 40px;
+}
+.services .service-box{
+   padding: 50px 20px;
+   border-radius: 20px;
+   background-color: var(--bs-white);
+
+}
+.services .icon-service{
+   height: 80px;
+   width: 96px;
+}
+.services .icon-service i{
+
+}
+
+/* End of Service Section */
 
 /* Clients Section */
 .carousel-item{
