@@ -16,12 +16,14 @@
 }
 
 :root {
-  --color-primary: #212529
-  --color-secondary: #ffffff;
+  --color-primary: #212529;
+  --color-secondary: #0d6efd;
+  --color-white: #ffffff;
   --color-grey0: #f8f8f8;
   --color-grey-1: #dbe1e8;
   --color-grey-2: #b2becd;
   --color-grey-3: #6c7983;
+  --box-shadow-1: 0 3px 15px rgba(0,0,0,.3);
 }
 
 body {
@@ -32,16 +34,52 @@ body {
   transition: all 0.4s ease-in-out;
 }
 
-/* Main styles */
-section {
-  padding: 60px 0;
+a {
+  display: inline-block;
+  text-decoration: none;
+  color: inherit;
+  font-family: inherit;
 }
 
-.section-title {
+header {
+  height: 50vh;
+  overflow: hidden;
+}
+
+section {
+  min-height: 20vh;
+  width: 100%;
+  padding: 60px, 10;
+}
+section .section-title {
+  color: var(--color-secondary);
   text-align: center;
   padding-bottom: 30px;
+  font-weight: 700;
+  font-size: 2rem;
 }
 
+.section {
+  background-color: var(--color-white);
+}
+
+.sec2 {
+  background: var(--color-grey-2);
+}
+
+.sec3 {
+  background: var(--bs-white);
+}
+
+.sec4 {
+  background: var(--color-grey0);
+}
+
+.sec5 {
+  background: var(--bs-white);
+}
+
+/* Main styles */
 .center {
   margin: auto;
   text-align: center;
@@ -53,7 +91,7 @@ header ul {
 }
 
 /** end of nav Section **/
-/* Header Section */
+/* Old Header Section */
 .headers {
   background: var(--bs-white);
   padding-bottom: 40px;
@@ -89,6 +127,7 @@ header ul {
   padding: 50px 20px;
   border-radius: 20px;
   background-color: var(--bs-white);
+  box-shadow: var(--box-shadow-1);
 }
 
 .services .icon-service {
