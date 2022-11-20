@@ -21,6 +21,17 @@ section {
    text-align: center;
 }
 
+/** nav Section **/
+header{
+  
+   
+}
+header ul{
+   text-align: right;
+}
+
+/** end of nav Section **/
+
 /* Header Section */
 .headers{
    background: var(--bs-white);
