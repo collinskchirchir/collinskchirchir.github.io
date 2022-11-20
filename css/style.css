@@ -1,10 +1,13 @@
+/* Loading offline fontawesome v6.2.0 core styles, Brands, Solid, Regular, Light and Duotone styles */
 @import "./fontawesome.css";
 @import "./brands.css";
 @import "./solid.css";
 @import "./regular.css";
 @import "./light.css";
 @import "./duotone.css";
+/* Loading offline bootstrap v5.2.2 file */
 @import "./bootstrap.css";
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -12,8 +15,23 @@
   list-style: none;
 }
 
-/* Loading offline fontawesome v6.2.0 core styles, Brands, Solid, Regular, Light and Duotone styles */
-/* Loading offline bootstrap v5.2.2 file */
+:root {
+  --color-primary: #212529
+  --color-secondary: #ffffff;
+  --color-grey0: #f8f8f8;
+  --color-grey-1: #dbe1e8;
+  --color-grey-2: #b2becd;
+  --color-grey-3: #6c7983;
+}
+
+body {
+  background-color: var(--bs-white);
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.1rem;
+  color: var(--color-primary);
+  transition: all 0.4s ease-in-out;
+}
+
 /* Main styles */
 section {
   padding: 60px 0;
