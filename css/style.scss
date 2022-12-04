@@ -8,8 +8,8 @@
  
     /* Loading offline bootstrap v5.2.2 file */
  @import "./bootstrap.css";
-   // Open Sans Font online import
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&display=swap');
+   // Poppins Font online import
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 
 *{
    margin: 0;
@@ -18,8 +18,22 @@
    list-style: none;
 }
 :root{
+   /*==== Colors ====  */
+   --body-color: #E49F7;
+   --sidebar-color: #fff;
+   --primary-color: #695CFE;
+   --primary-color-ligt: #f6f5ff;
+   --toggle-color: #DDD;
+   --text-color: #707070;
+
+   /* ==== Transition ==== */
+   --tran0-02: all 0.2s ease;
+   --tran0-03: all 0.3s ease;
+   --tran0-04: all 0.4s ease;
+   --tran0-05: all 0.5s ease;
+
    --color-primary: #212529;
-   --color-secondary: #0d6efd;
+   --color-secondary: #695CFE;
    --color-white: #ffffff;
    --color-grey0: #f8f8f8;
    --color-grey-1: #dbe1e8;
@@ -30,8 +44,8 @@
 }
 
 body{
-   background-color: var(--bs-white);
-   font-family: 'Open Sans', sans-serif;
+   background-color: var(--body-color);
+   font-family: 'Poppins', sans-serif;
    font-size: 1.1rem;
    color: var(--color-primary);
    transition: all .4s ease-in-out;
